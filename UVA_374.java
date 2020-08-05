@@ -28,7 +28,7 @@ static int pow(int B,int P, int M)
 	int sq = pow(B,P/2,M);
 	sq = (sq%M)*(sq%M);
 	if(P%2 !=0)
-		sq = (sq%M)*(B%M)%M;
+		sq = ((sq%M)*(B%M))%M;
 	return sq%M;
 }
 
