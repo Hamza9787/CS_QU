@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader; 
 import java.util.*;
 import static java.lang.Math.sqrt;
-public class Main {
+class Main {
 
     public static void main(String args[] ) throws Exception {
 
